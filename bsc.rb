@@ -36,6 +36,13 @@ class Bsc < Formula
     bin.write_exec_script("#{libexec}/bin/bsc")
     bin.write_exec_script("#{libexec}/bin/bluetcl")
   end
+  
+  def caveats
+    <<~EOS
+      🍗 Please set BLUESPECDIR environment (At ~/.zshrc):
+        export BLUESPECDIR="#{libexec}/lib"
+    EOS
+  end
 
   test do
     system "false"
