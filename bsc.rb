@@ -11,12 +11,13 @@ class Bsc < Formula
     sha256 "2a6850f54b780c5edf96e6c4de0d9ba1ebd90ffd48a7a4dbc7c7f507fa02b8d8" => :catalina
   end
 
+  depends_on "coreutils"
+  depends_on "gmp"
   depends_on "autoconf"
   depends_on "cabal-install"
   depends_on "gperf"
   depends_on "icarus-verilog"
   depends_on "pkg-config"
-  depends_on "gmp"
 
   def install
     system "cabal", "update"
