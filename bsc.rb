@@ -2,7 +2,7 @@ class Bsc < Formula
   desc "Bluespec System Verilog (BSV) Compiler (bsc)"
   homepage "https://github.com/B-Lang-org/bsc"
   url "https://github.com/baryberri/homebrew-bsc/releases/download/6a8cedf/bsc.tar.gz"
-  version "6a8cedf"
+  version "03e603c"
   sha256 "4a54c15791577fddbde83c7753c825d5ea599de51a6b4b77a0edff3999dc157f"
 
   bottle do
