@@ -6,7 +6,7 @@ class Bsc < Formula
   sha256 "4a54c15791577fddbde83c7753c825d5ea599de51a6b4b77a0edff3999dc157f"
 
   bottle do
-    root_url "https://github.com/baryberri/homebrew-bsc/releases/download/6a8cedf"
+    root_url "https://github.com/baryberri/homebrew-bsc/releases/download/03e603c"
     cellar :any
     sha256 "2a6850f54b780c5edf96e6c4de0d9ba1ebd90ffd48a7a4dbc7c7f507fa02b8d8" => :catalina
   end
